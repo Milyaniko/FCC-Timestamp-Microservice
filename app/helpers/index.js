@@ -1,5 +1,7 @@
-const { routeParser }= require('./routeParser');
+const { routeParser } = require('./routeParser');
+const { timeStampParser } = require('./timeStampParser');
 
 module.exports = {
-    routeParser
+    routeParser,
+    timeStampParser
 }
